@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/patment.css">
+    <title>Payment Form</title>
+</head>
+<body>
+    <div class="Continer"> 
+    <form action="">
+<h1 class="main_heading">Payment Form</h1>
+<hr>
+<h2>Contact Information</h2>
+<h5>* Thats Means Its Required</h5>
+<p>Name: *<input type="text" name="name" required></p>
+<fieldset>
+    <legend>Gender</legend>
+<p>Male* <input type="radio" name="Gender" required> 
+Female* <input type="radio" name="Gender" required>
+</fieldset>
+</p>
+
+<p>Address*: 
+<textarea name="Address" id="Address" cols="90" rows="7" required></textarea></p>
+<p>Email*: <input type="email" name="Email" id="Email" required></p>
+<p>Pin Code*: <input type="number" name="Pin code" id="Pin Code" required></p>
+<h2>Payment Information</h2>
+<p>Card Type*: <select name="Card Type" id="Card Type" required>
+    <option value="">--Select Card Type--</option>
+    <option value="Visa">Visa</option>
+    <option value="Rupay">Rupay</option>
+    <option value="MasterCard">MasterCard</option>
+</select></p>
+<p>Card Number*: <input type="number" name="Card Number" id="Card Number" required></p>
+<p> Expiry Date* : <input type="date" name="Card Expiry" id="Card Expiry" required></p>
+<p>CVV*: <input type="password" required>CVV</p>
+<input  class="submit" type="submit" value="Pay Now">
+
+</form>
+
+
+</div>
+</body>
+</html>
